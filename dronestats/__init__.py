@@ -11,7 +11,7 @@ from dronestats.vision import draw_annotations, find_white_rectangle, extract_la
 from dronestats.writer import write_to_csv
 
 
-ACTIVATOR_KEY = "s"
+ACTIVATOR_KEY = "space"
 CSV_FILE = os.environ["APPDATA"] + "\\race_times.csv"
 
 
